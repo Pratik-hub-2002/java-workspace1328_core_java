@@ -9,31 +9,31 @@ public class Season_finder {
 		System.out.println("Enter month number = ");
 		int month = sc.nextInt();
 
-		switch (month) {
+		if (month >= 1 && month <= 12) {
+			switch (month) {
 
-		case 11:
-		case 12:
-		case 1:
-		case 2:
-			System.out.println("Winter");
-			break;
+			case 11:
+			case 12:
+			case 1:
+			case 2:
+				System.out.println("Winter");
+				break;
 
-		case 3:
-		case 4:
-		case 5:
-		case 6:
-			System.out.println("Summer");
-			break;
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				System.out.println("Summer");
+				break;
 
-		case 7:
-		case 8:
-		case 9:
-		case 10:
-			System.out.println("October");
-
-		default:
+			case 7:
+			case 8:
+			case 9:
+			case 10:
+				System.out.println("October");
+			}
+		} else {
 			System.out.println("Invalid Input");
 		}
 	}
-
 }
