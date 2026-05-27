@@ -9,22 +9,25 @@ public class WW {
 		System.out.println("Enter Day");
 		int day = sc.nextInt();
 
-		switch (day) {
+		if (day >= 1 && day <= 7) {
 
-		case 1:
-		case 2:
-		case 3:
-		case 4:
-		case 5:
-			System.out.println("WeekDays");
-			break;
-		case 6:
-		case 7:
-			System.out.println("Weekends");
-			break;
-		default:
+			switch (day) {
+
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+				System.out.println("WeekDays");
+				break;
+			case 6:
+			case 7:
+				System.out.println("Weekends");
+				break;
+			}
+		} else {
+
 			System.out.println("Invalid Input");
 		}
 	}
-
 }

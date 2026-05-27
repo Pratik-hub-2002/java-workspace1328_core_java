@@ -9,15 +9,18 @@ public class EO {
 		System.out.println("Enter any number = ");
 		int num = sc.nextInt();
 
-		switch (num % 2) {
+		if (num >= 0) {
+			switch (num % 2) {
 
-		case 1:
-			System.out.println("It is an Even number");
-			break;
+			case 1:
+				System.out.println("It is an Even number");
+				break;
 
-		default:
-			System.out.println("It is an Odd number");
+			default:
+				System.out.println("It is an Odd number");
+			}
+		} else {
+			System.out.println("Negative Number");
 		}
 	}
-
 }
