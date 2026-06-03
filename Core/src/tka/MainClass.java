@@ -3,6 +3,7 @@ package tka;
 public class MainClass {
 
 	public static void main(String[] args) {
+		
 //  	1st
 		Vehicle v = new Vehicle();
 
