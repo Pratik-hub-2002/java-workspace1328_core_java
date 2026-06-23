@@ -1,7 +1,7 @@
 public class Classroom {
 
 	String class_name = "MCA SY", teacher_name = "Vinod Sir", subject = "Java",
-			college_name = "JNEC College", room_no = "FF39", classroom_location = "First Floor";
+	college_name = "JNEC College", room_no = "FF39", classroom_location = "First Floor";
 	int  total_students = 60, benches = 30;
 	double attendance = 92.5;
 	char section = 'A';
