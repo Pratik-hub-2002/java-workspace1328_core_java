@@ -21,6 +21,7 @@ public class A {
 //			System.out.println(i);
 //		}
 
+		// for(i=1;i<=10;i++)
 //		Increasing Order
 //		-100 to 100
 //		for (int i = -100; i <= 100; i++) {
@@ -297,5 +298,451 @@ public class A {
 //		for (int i = -2025; i <= 2025; i++) {
 //			System.out.println(i);
 //		}
+
+//		Q. 50 
+//		int i=n;
+//		while(){
+//		syso;
+//		i++
+//		}
+
+//		Increasing Order
+//		-100 to 100
+//		int i = -100;
+//		while (i <= 100) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		-50 to 50
+//		int i = -50;
+//		while (i <= 50) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		-25 to 75
+//		int i = -25;
+//		while (i <= 75) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		0 to 100
+//		int i = 0;
+//		while (i <= 100) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		1 to 50
+//		int i = 1;
+//		while (i <= 50) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		10 to 100
+//		int i = 10;
+//		while (i <= 100) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		25 to 250
+//		int i = 25;
+//		while (i <= 250) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		100 to 200
+//		int i = 100;
+//		while (i <= 200) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		-200 to -100
+//		int i = -200;
+//		while (i <=-100 ) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		-500 to 0
+//		int i = -500;
+//		while (i <= 0) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		Decreasing Order
+//		100 to 0
+//		int i = 100;
+//		while (i >=0 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		50 to -50
+//		int i = 50;
+//		while (i >=-50 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		200 to 100
+//		int i = 200;
+//		while (i >=100 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		0 to -100
+//		int i = 0;
+//		while (i >=-100 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		-10 to -100
+//		int i = -10;
+//		while (i >=-100 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		500 to 0
+//		int i = 500;
+//		while (i >=0 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		1000 to 900
+//		int i = 1000;
+//		while (i >=900 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		75 to 25
+//		int i = 75;
+//		while (i >=25) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		20 to -20
+//		int i = 20;
+//		while (i >=-20 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		150 to 50
+//		int i = 150;
+//		while (i >=50 ) {
+//			System.out.println(i);
+//			i--;
+//		}
+
+//		Step by 2
+//		0 to 50 (increment by 2)
+//		int i = 0;
+//		while (i <= 50) {
+//				System.out.println(i);
+//		i+=2;
+//		}
+
+//		-20 to 20 (increment by 2)
+//		int i = -20;
+//		while (i <= 20) {
+//			System.out.println(i);
+//			i += 2;
+//		}
+
+//		100 to 200 (increment by 2)
+//		int i = 100;
+//		while (i <= 200) {
+//				System.out.println(i);
+//		i+=2;
+//		}
+
+//		50 to 0 (decrement by 2)
+//		int i = 50;
+//		while (i >= 0) {
+//				System.out.println(i);
+//		i-=2;
+//		}
+
+//		-100 to -50 (increment by 2)
+//		int i = -100;
+//		while (i <= -50) {
+//				System.out.println(i);
+//		i+=2;
+//		}
+
+//		Step by 5
+//		0 to 100 (increment by 5)
+//		int i = 0;
+//		while (i <= 100) {
+//				System.out.println(i);
+//		i+=5;
+//		}
+
+//		100 to 0 (decrement by 5)
+//		int i = 100;
+//		while (i >= 0) {
+//				System.out.println(i);
+//		i-=5;
+//		}
+
+//		-50 to 50 (increment by 5)
+//		int i = -50;
+//		while (i <= 50) {
+//				System.out.println(i);
+//		i+=5;
+//		}
+
+//		500 to 600 (increment by 5)
+//		int i = 500;
+//		while (i <= 600) {
+//				System.out.println(i);
+//		i+=5;
+//		}
+
+//		250 to 150 (decrement by 5)
+//		int i = 250;
+//		while (i >= 150) {
+//				System.out.println(i);
+//		i-=5;
+//		}
+
+//		Step by 10
+//		0 to 100 (increment by 10)
+//		int i =0 ;
+//		while (i <=100 ) {
+//				System.out.println(i);
+//		i+=10;
+//		}
+
+//		100 to 0 (decrement by 10)
+//		int i = 100;
+//		while (i >= 0) {
+//				System.out.println(i);
+//		i-=10;
+//		}
+
+//		-100 to 100 (increment by 10)
+//		int i = -100;
+//		while (i <=100 ) {
+//				System.out.println(i);
+//		i+=10;
+//		}
+
+//		500 to 1000 (increment by 10)
+//		int i = 500;
+//		while (i <= 1000) {
+//				System.out.println(i);
+//		i+=10;
+//		}
+
+//		1000 to 500 (decrement by 10)
+//		int i = 1000;
+//		while (i >= 500) {
+//				System.out.println(i);
+//		i-=10;
+//		}
+
+//		Even Numbers
+//		2 to 100
+//		int i = 2;
+//		while (i <= 100) {
+//			System.out.println(i);
+//			i+=2;
+//		}
+
+//		-50 to 50
+//		int i = -50;
+//		while (i <= 50) {
+//			System.out.println(i);
+//			i+=2;
+//		}
+
+//		100 to 200
+//		int i = 100;
+//
+//		while (i <= 200) {
+//		    System.out.println(i);
+//		    i += 2;
+//		}
+
+//		200 to 100 (reverse)
+//		int i = 200;
+//
+//		while (i >= 100) {
+//		    System.out.println(i);
+//		    i -= 2;
+//		}
+
+//		0 to 500
+//		int i = 0;
+//
+//		while (i <= 500) {
+//		    System.out.println(i);
+//		    i += 2;
+//		}
+
+//		Odd Numbers
+//		1 to 99
+//		int i = 1;
+//
+//		while (i <= 99) {
+//			System.out.println(i);
+//			i += 2;
+//		}
+
+//		-49 to 49
+//		int i = -49;
+//
+//		while (i <= 49) {
+//			System.out.println(i);
+//			i += 2;
+//		}
+
+//		101 to 199
+//		int i = 101;
+//
+//		while (i <= 199) {
+//			System.out.println(i);
+//			i += 2;
+//		}
+
+//		99 to 1 (reverse)
+//		int i = 99;
+//
+//		while (i >= 1) {
+//			System.out.println(i);
+//			i -= 2;
+//		}
+
+
+//		1 to 501
+//		int i = 1;
+//
+//		while (i <= 501) {
+//			System.out.println(i);
+//			i += 2;
+//		}
+
+//		Mixed
+//		-1000 to 1000
+//		int i = -1000;
+//
+//		while (i <= 1000) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		-365 to 365
+//		int i = -365;
+//
+//		while (i <= 365) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		-999 to 999
+//		int i = -999;
+//
+//		while (i <= 999) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		2020 to 2050
+//		int i = 2020;
+//
+//		while (i <= 2050) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		-2025 to 2025
+//		int i = -2025;
+//
+//		while (i <= 2025) {
+//			System.out.println(i);
+//			i++;
+//		}
+
+//		Q. 50 
+//		int i=n;
+//		do(){
+//		
+//	}while();
+
+//		Increasing Order
+//		-100 to 100
+//		-50 to 50
+//		-25 to 75
+//		0 to 100
+//		1 to 50
+//		10 to 100
+//		25 to 250
+//		100 to 200
+//		-200 to -100
+//		-500 to 0
+//		Decreasing Order
+//		100 to 0
+//		50 to -50
+//		200 to 100
+//		0 to -100
+//		-10 to -100
+//		500 to 0
+//		1000 to 900
+//		75 to 25
+//		20 to -20
+//		150 to 50
+//		Step by 2
+//		0 to 50 (increment by 2)
+//		-20 to 20 (increment by 2)
+//		100 to 200 (increment by 2)
+//		50 to 0 (decrement by 2)
+//		-100 to -50 (increment by 2)
+//		Step by 5
+//		0 to 100 (increment by 5)
+//		100 to 0 (decrement by 5)
+//		-50 to 50 (increment by 5)
+//		500 to 600 (increment by 5)
+//		250 to 150 (decrement by 5)
+//		Step by 10
+//		0 to 100 (increment by 10)
+//		100 to 0 (decrement by 10)
+//		-100 to 100 (increment by 10)
+//		500 to 1000 (increment by 10)
+//		1000 to 500 (decrement by 10)
+
+//		Even Numbers
+//		2 to 100
+//		-50 to 50
+//		100 to 200
+//		200 to 100 (reverse)
+//		0 to 500
+//		Odd Numbers
+//		1 to 99
+//		-49 to 49
+//		101 to 199
+//		99 to 1 (reverse)
+//		1 to 501
+//		Mixed
+//		-1000 to 1000
+//		-365 to 365
+//		-999 to 999
+//		2020 to 2050
+//		-2025 to 2025
+
 	}
 }
